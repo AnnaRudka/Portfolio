@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.JDAside{
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    background-image: url(../Images/profile_girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.JDВDropdownMenu{
+    z-index: 9999;
+}
+.JDВDropdown{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    color: grey;
+    border: 0px;
+    font-size: 32px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child{
+    position: fixed;
+    text-align: center;
+    display: none;
+    background-color: black;
+    font-size: 32px;
+    line-height: 2;
+    font-weight: 400;
+    padding: 200px 320px 400px 320px;
+}
+.dropdown-child a {
+    color:  rgb(177, 176, 176);
+    text-decoration: none;
+    display: block;
+}
+.dropdown-child a:hover{
+    color: white;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.MainContent{
+    position: relative;
+    margin-left: 40%;
+    padding: 25px;
+    letter-spacing: 2px;
+    width: 60%;
+    box-sizing: border-box;
+    color:  #555555fd;
+    text-align: justify; 
+    font-size: 15px;
+    line-height: 1.5;
+}
+header{
+    text-align: center;
+    margin: 140px 0;
+}
+h1{
+    padding-top: 10px;
+    font-size: 64px;
+    letter-spacing: 10px;
+    font-weight: 500;
+    color: black;
+}
+h3{
+    font-size: 30px;
+}
+.JDHeader{
+    padding: 30px;
+}
+.JDButton{
+    background-color: #f1f0f0fd;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.JDButton:hover{
+    background-color: #c0c0c0fd;
+}
+.JDButtonBlack:hover{
+    background-color: black;
+    color: white;
+}
+.JDSectionName{
+    padding: 30px 0px;
+    color:  #7c7b7bfd;
+    font-weight: 500;
+    font-size: 30px;
+}
+.JDSectionNameLine:after{
+    content:"";
+    display: block;
+    background-color: rgb(221, 220, 220);
+    height: 1px;
+    margin: 10px auto;
+}
+.JDFotoBlock{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    height: 1230px;
+    width: 100%;
+}
+.JDFoto{
+    width: 49%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.JDSkillsNameItem{
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin: 15px 0px;
+}
+.JDSkillsItem{
+    width: 100%;
+    position: relative;
+}
+.JDSkillsbottom{
+    width: 100%;
+    background-color: #e6e3e3fd;
+    height: 30px;
+}
+.JDSkillstop{
+    top: 0px;
+    height: 30px;
+    background-color:  #7c7b7bfd;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+.JDSkillsTopPhoto{
+    width: 95%;  
+}
+.JDSkillsTopWDesign{
+    width: 85%;
+}
+.JDSkillsTopPhotoshop{
+    width: 80%;
+}
+.JDAchievement{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 0;
+    background-color: #7c7b7bfd;
+    color: white;
+    height: 120px;
+    text-align: center;
+    font-size: 18px;
+}
+.JDСolleagues{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    line-height: 2;
+    font-size: 18px;
+    margin: 10px;
+    }
+.JDСolleaguesFoto{
+    width: 85px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.JDColleaguesName{
+    color: black;
+    font-size: 20px;
+}
+.JDPrices{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+}
+.JDPriceList{
+    flex: 0 0 48%;
+    margin-right: 10px;
+    box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16),
+     0 2px 10px 0 rgba(0,0,0,0.12);
+    text-align: center;
+    box-sizing: border-box;
+}
+.JDPriceList:hover{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),
+     0 4px 20px 0 rgba(0,0,0,0.19);
+     box-sizing: border-box;
+}
+.JDul{
+    border-bottom: 1px solid #d3d3d3fd;
+    box-sizing: border-box;
+}
+.JDli{
+    border-bottom: 1px solid #d3d3d3fd;
+    padding: 10px 0px;
+}
+.JDliHeader{
+    font-size: 24px;
+    padding: 32px 0px;
+    color: white;
+}
+.JDbackgrey{
+    background-color:#7a7a7a;
+}
+.JDbacklightgrey{
+    background-color: #d3d3d3fd;
+}
+.JDbackblack{
+    background-color:#000000;
+}
+.JDContactInfo{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.JDfas{
+    font-size: 36px;
+    padding: 10px 15px 10px 0px ;
+}
+.JDImagegray{
+filter: grayscale(75%);
+margin-bottom: 30px;
+}
+.JDInputInfo{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+.JDFooter{
+    margin-top: 50px;
+    margin-left:-25px;
+    margin-right: -25px;
+    margin-bottom: -25px;
+    background-color: #f0ececfd;
+    color: grey;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.JDFooterLinks{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px; 
+    padding-bottom: 10px; 
+} 
+.JDFooterLinksItem{
+    color: grey;
+} 
+.JDFooterLinksItem:hover{
+    color: rgb(185, 185, 185);
+}
+.JDFooterMainLink{
+    color: grey;
+    text-decoration: underline;
+}
+.JDFooterMainLink:hover{
+    color: rgb(185, 185, 185);
+}
